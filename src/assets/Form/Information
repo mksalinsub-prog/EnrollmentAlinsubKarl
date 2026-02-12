@@ -1,0 +1,50 @@
+{/* CONTACT DETAILS */}
+<fieldset>
+  <legend><h2>Contact Details</h2></legend>
+
+  <div className="grid-3">
+    <div>
+      <label>Email Address</label>
+      <input type="email" required />
+    </div>
+
+    <div>
+      <label>Mobile Number</label>
+      <input type="tel" required />
+    </div>
+
+    <div>
+      <label>Landline</label>
+      <input type="tel" />
+    </div>
+  </div>
+
+  <h3>Complete Home Address</h3>
+
+  <div className="grid-3">
+    <div>
+      <label>Street</label>
+      <input type="text" required />
+    </div>
+
+    <div>
+      <label>Barangay</label>
+      <input type="text" required />
+    </div>
+
+    <div>
+      <label>City</label>
+      <input type="text" required />
+    </div>
+
+    <div>
+      <label>Province</label>
+      <input type="text" required />
+    </div>
+
+    <div>
+      <label>Zip Code</label>
+      <input type="text" required />
+    </div>
+  </div>
+</fieldset>
